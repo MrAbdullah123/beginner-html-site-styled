@@ -39,3 +39,35 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+/* === Q4 UI improvement: added by Abdullah on feature/ui-improvement === */
+
+h1 {
+  color: #d94f0a;
+  text-decoration: underline;
+  text-shadow: 2px 2px 0 #FF9500;
+}
+
+body {
+  width: 750px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #00539F;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #d94f0a;
+}
